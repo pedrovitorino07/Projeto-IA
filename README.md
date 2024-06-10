@@ -8,7 +8,7 @@ A interface possui três funcionalidades simples:
 
 ### 1. Detectar pela Câmera
 - **Descrição:** Ativa a webcam para fazer o reconhecimento de objetos em tempo real.
-- **Nota:** Em PCs mais fracos, pode haver travamentos devido ao uso intensivo de recursos.
+- **Nota:** Em PCs mais fracos, pode travar bastante, por conta do desempenha da maquina.
 - **Controles:**
   - Pressione `ESC` para sair dessa opção.
   - Pressione e segure a tecla `ESPAÇO` para congelar a imagem em um frame.
