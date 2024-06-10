@@ -15,6 +15,25 @@ yolov4.cfg
 yolov4.weights
 coco.names
 python
+opencv
+
+# Utilização do Codigo
+
+1. Baixe o yolov3.cfg, o yolov4.weights, e o coco.names nesse link:
+
+   "https://github.com/AlexeyAB/darknet?tab=readme-ov-file#pre-trained-models"
+
+   Baixe e coloque no diretorio do projeto.
+
+2. Baixe o python, caso não tenha
+
+3. Instale o opencv pelo cmd
+
+   "pip install opencv-python"
+
+4. Após isso, só colocar o código no vs code e para rodar basta ir no terminal e escrever "python main.py", assim, se tudo estiver correto, irá rodar.
+
+
 
 
 
