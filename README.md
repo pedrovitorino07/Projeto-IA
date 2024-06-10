@@ -11,10 +11,15 @@ Interface feita com o Tkinter, com 3 funcionalidades simples:
 3- Detectar por video: É selecionado um video do computador do usuario, e ele roda fazendo o reconhecimento, o video é transmitido com baixo FPS, facilitando a observação das categorias de objetos reconhecidos. E para sair desse modo de detecção de video basta apertar "ESC" e para segurar em um único frame, basta apertar "ESPAÇO" e segurar.
 
 # Requisitos para rodar corretamente:
+
 yolov4.cfg
+
 yolov4.weights
+
 coco.names
+
 python
+
 opencv
 
 # Utilização do Codigo
