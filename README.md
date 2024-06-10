@@ -1,49 +1,58 @@
-# Projeto-IA
-Projeto da cadeira de Inteligencia artificial, usando o metodo YOLO, consultando imagem ou video.
+# Projeto de Inteligência Artificial - Detecção de Objetos com YOLO
 
-# Interface
-Interface feita com o Tkinter, com 3 funcionalidades simples:
+Este projeto utiliza o método YOLO (You Only Look Once) para detectar e classificar objetos em imagens e vídeos. A interface foi desenvolvida com Tkinter, oferecendo três funcionalidades principais.
 
-1. Detectar pela câmera
-   - Descrição: Nessa opção a webcam é ativada, fazendo o reconhecimento da imagem em tempo real.
-   - Observação: Com PC's mais fracos trava bastante por conta da utilização de varios recursos simultaneos.
-   - Controles: Para sair dessa opção, pressione "ESC", e para a imagem congelar em um frame aperte e segura a teclada "ESPAÇO".
+## Interface
 
-2- Detectar pela imagem
-   - Descrição: Nessa opção é possivel escolher uma imagem do proprio computador, e após isso o computador faz o reconhecimento. 
+A interface possui três funcionalidades simples:
 
-3- Detectar por video
-   - Descrição: É selecionado um video do computador do usuario, e ele roda fazendo o reconhecimento, o video é transmitido com baixo FPS, facilitando a observação das categorias de objetos reconhecidos.
-   - Dica: Assim como na opção da câmera para sair desse modo de detecção de video basta apertar "ESC" e para segurar em um único frame, basta apertar "ESPAÇO" e segurar.
+### 1. Detectar pela Câmera
+- **Descrição:** Ativa a webcam para fazer o reconhecimento de objetos em tempo real.
+- **Nota:** Em PCs mais fracos, pode haver travamentos devido ao uso intensivo de recursos.
+- **Controles:**
+  - Pressione `ESC` para sair dessa opção.
+  - Pressione e segure a tecla `ESPAÇO` para congelar a imagem em um frame.
 
-# Requisitos para rodar corretamente:
+### 2. Detectar pela Imagem
+- **Descrição:** Permite selecionar uma imagem do computador e realiza o reconhecimento de objetos nela.
 
-- yolov4.cfg
+### 3. Detectar por Vídeo
+- **Descrição:** Permite selecionar um vídeo do computador e realiza o reconhecimento de objetos com baixa taxa de quadros por segundo (FPS) para facilitar a observação.
+- **Controles:**
+  - Pressione `ESC` para sair desse modo.
+  - Pressione e segure a tecla `ESPAÇO` para segurar um frame.
 
-- yolov4.weights
+## Requisitos
 
-- coco.names
+Para rodar corretamente o projeto, você precisará dos seguintes arquivos e softwares:
 
-- python
+- `yolov4.cfg`
+- `yolov4.weights`
+- `coco.names`
+- Python
+- OpenCV
 
-- opencv
+## Passos para Utilização do Código
 
-# Utilização do Codigo
+1. **Baixe os Arquivos Necessários**
+   - Baixe os arquivos `yolov4.cfg`, `yolov4.weights` e `coco.names` do [repositório darknet](https://github.com/AlexeyAB/darknet?tab=readme-ov-file#pre-trained-models).
+   - Coloque os arquivos no diretório do projeto.
 
-1. Baixe o yolov3.cfg, o yolov4.weights, e o coco.names, são encontrados nesse link:
+2. **Instale o Python**
+   - Caso não tenha, [baixe e instale o Python](https://www.python.org/).
 
-   "https://github.com/AlexeyAB/darknet?tab=readme-ov-file#pre-trained-models"
+3. **Instale o OpenCV**
+   - Abra o CMD (prompt de comando) e execute:
+     ```bash
+     pip install opencv-python
+     ```
 
-   Baixe e coloque no diretorio do projeto.
-
-2. Baixe o python, caso não tenha
-
-3. Instale o opencv pelo cmd
-
-   "pip install opencv-python"
-
-4. Após isso, só colocar o código no vs code e para rodar basta ir no terminal e escrever "python main.py", assim, se tudo estiver correto, irá rodar.
-
+4. **Execute o Projeto**
+   - Abra o terminal no diretório do projeto e execute:
+     ```bash
+     python main.py
+     ```
+   - Se tudo estiver configurado corretamente, a interface será iniciada e estará pronta para uso.
 
 
 
