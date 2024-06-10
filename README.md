@@ -43,12 +43,14 @@ Para rodar corretamente o projeto, você precisará dos seguintes arquivos e sof
 
 3. **Instale o OpenCV**
    - Abra o CMD (prompt de comando) e execute:
+
      ```bash
      pip install opencv-python
      ```
 
 4. **Execute o Projeto**
    - Abra o terminal no diretório do projeto e execute:
+
      ```bash
      python main.py
      ```
