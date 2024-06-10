@@ -4,7 +4,10 @@ Projeto da cadeira de Inteligencia artificial, usando o metodo YOLO, consultando
 # Interface
 Interface feita com o Tkinter, com 3 funcionalidades simples:
 
-1- Detectar pela camera: Nessa opção a webcam é ativada, fazendo o reconhecimento da imagem. Com PC's mais fracos trava bastante por conta da utilização de varios recursos simultaneos. Para sair dessa opção, pressione "ESC", e para a imagem congelar em um frame aperte e segura a teclada "ESPAÇO".
+1. Detectar pela câmera
+   - Descrição: Nessa opção a webcam é ativada, fazendo o reconhecimento da imagem em tempo real.
+   - Observação: Com PC's mais fracos trava bastante por conta da utilização de varios recursos simultaneos.
+   - Controles: Para sair dessa opção, pressione "ESC", e para a imagem congelar em um frame aperte e segura a teclada "ESPAÇO".
 
 2- Detectar pela imagem: Nessa opção é possivel escolher uma imagem do proprio computador, e após isso o computador faz o reconhecimento. 
 
