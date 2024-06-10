@@ -24,7 +24,7 @@ Interface feita com o Tkinter, com 3 funcionalidades simples:
 
 # Utilização do Codigo
 
-1. Baixe o yolov3.cfg, o yolov4.weights, e o coco.names nesse link:
+1. Baixe o yolov3.cfg, o yolov4.weights, e o coco.names, são encontrados nesse link:
 
    "https://github.com/AlexeyAB/darknet?tab=readme-ov-file#pre-trained-models"
 
