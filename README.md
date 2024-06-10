@@ -39,7 +39,7 @@ Para rodar corretamente o projeto, você precisará dos seguintes arquivos e sof
    - Coloque os arquivos no diretório do projeto.
 
 2. **Instale o Python**
-   - Caso não tenha, [baixe e instale o Python](https://www.python.org/).
+   - Caso não tenha, [baixe e instale o Python](https://www.python.org/downloads/).
 
 3. **Instale o OpenCV**
    - Abra o CMD (prompt de comando) e execute:
