@@ -54,6 +54,9 @@ Para rodar corretamente o projeto, você precisará dos seguintes arquivos e sof
      ```
    - Se tudo estiver configurado corretamente, a interface será iniciada e estará pronta para uso.
 
+## Observação
+O projeto, foi todo codado no VS code, e esse passo a passo é justamente para rodar no mesmo.
+
 
 
 
