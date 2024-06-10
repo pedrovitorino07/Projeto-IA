@@ -12,15 +12,15 @@ Interface feita com o Tkinter, com 3 funcionalidades simples:
 
 # Requisitos para rodar corretamente:
 
-yolov4.cfg
+- yolov4.cfg
 
-yolov4.weights
+- yolov4.weights
 
-coco.names
+- coco.names
 
-python
+- python
 
-opencv
+- opencv
 
 # Utilização do Codigo
 
